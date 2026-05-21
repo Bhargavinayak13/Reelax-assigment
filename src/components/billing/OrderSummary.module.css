@@ -1,0 +1,277 @@
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.planBox {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.price span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.credits {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.planRight {
+  text-align: right;
+}
+
+.planLabel {
+  font-size: 10px;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.planName {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.btnUpgradePlan {
+  width: 100%;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background: #fff;
+  border-radius: 6px;
+  padding: 9px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 4px;
+  transition: background 0.15s;
+}
+
+.btnUpgradePlan:hover {
+  background: #eff6ff;
+}
+
+.walletRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid #f3f4f6;
+  border-top: 1px solid #f3f4f6;
+  margin-top: 10px;
+}
+
+.walletLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.walletIcon {
+  width: 32px;
+  height: 32px;
+  background: #f3f4f6;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.walletInfo {
+  font-size: 13px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.walletSub {
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 1px;
+}
+
+.btnApply {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.15s;
+}
+
+.btnApply:hover {
+  background: #1d4ed8;
+}
+
+.btnApply.applied {
+  background: #dc2626;
+}
+
+.couponSection {
+  margin-top: 4px;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 8px;
+}
+
+.couponHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0 8px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.couponLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.couponBody {
+  padding-bottom: 8px;
+}
+
+.couponInputRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.couponInput {
+  flex: 1;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  transition: border-color 0.15s;
+}
+
+.couponInput:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.couponApplyBtn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.15s;
+}
+
+.couponApplyBtn:hover {
+  background: #1d4ed8;
+}
+
+.totals {
+  padding-top: 14px;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.totalLabel {
+  color: #6b7280;
+}
+
+.totalVal {
+  color: #111827;
+  font-weight: 500;
+}
+
+.totalValStrike {
+  text-decoration: line-through;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+.discountVal {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.dueRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.dueLabel {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.dueVal {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.btnProceed {
+  width: 100%;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 16px;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.15s;
+}
+
+.btnProceed:hover {
+  background: #1d4ed8;
+}
